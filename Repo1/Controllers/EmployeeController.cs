@@ -110,6 +110,7 @@ namespace Repo1.Controllers
         public async Task<IActionResult> getStudentById(int id)
         {
             var stud =_studentRepo.getStudentById(id);
+            Console.Write("first change from local");
             return Ok(stud);
         }
 
