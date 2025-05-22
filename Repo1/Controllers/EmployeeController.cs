@@ -113,7 +113,7 @@ namespace Repo1.Controllers
             Console.Write("first change from local");
             Console.Write("second change from Feature new branch");
             Console.Write("Third feature from Feature branch to test conflicts");
-            Console.Write("Checking stage steps");
+            Console.Write("Checking stage steps two");
             return Ok(stud);
         }
 
