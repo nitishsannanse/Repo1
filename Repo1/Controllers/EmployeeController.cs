@@ -112,7 +112,7 @@ namespace Repo1.Controllers
             var stud =_studentRepo.getStudentById(id);
             Console.Write("first change from local");
             Console.Write("second change from Feature new branch");
-            Console.Write("Third feature from Feature branch");
+            Console.Write("Third feature from Feature branch to test conflicts");
             return Ok(stud);
         }
 
